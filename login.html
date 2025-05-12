@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Réservation de Lavage – Connexion</title>
+  
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-page">
+
+<header>
+  <h1>Connexion</h1>
+</header>
+
+<div class="form-container">
+  <form class="login-form" action="dashboard.html" method="post">
+    <h2>Connectez-vous à votre compte</h2>
+    <div class="form-control">
+      
+      <label for="email">Adresse e-mail</label>
+      <i class="fas fa-envelope"></i>
+      <input type="email" id="email" name="email"  /><!-- this field will be required-->
+    </div>
+    <div class="form-control">
+      <label for="password">Mot de passe</label>
+       <i class="fas fa-phone"></i>
+      <input type="password" id="password" name="password"  /> <!-- this field will be required-->
+    </div>
+<div class="form-buttons">
+  <button type="submit">S'inscrire</button>
+  <button type="button" class="cancel-btn" onclick="window.location.href='index.html'">Annuler</button>
+</div>
+    <p class="toggle-form">
+      Vous n'avez pas de compte ? 
+      <a href="register.html">Inscrivez-vous ici</a>.
+    </p>
+    
+  </form>
+</div>
+
+<footer>
+  <p>© 2025 Clean Auto Premium — Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>

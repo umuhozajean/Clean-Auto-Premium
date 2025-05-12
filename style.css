@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header styles */
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -77,7 +77,7 @@ body {
     color: #1E4B45;
 }
 
-/* Hero section */
+
 .hero {
     background: linear-gradient(rgba(45, 106, 99, 0.8), rgba(45, 106, 99, 0.8)), url('images/banner.png') no-repeat center/cover;
     color: white;
@@ -110,7 +110,7 @@ body {
     color: #F5ECD9;
 }
 
-/* Features section */
+
 .features {
     padding: 60px 20px;
     text-align: center;
@@ -153,7 +153,7 @@ body {
     color: #2D6A63;
 }
 
-/* Footer */
+
 footer {
     background-color: #222;
     color: #aaa;
@@ -161,9 +161,7 @@ footer {
     padding: 20px;
 }
 
-/* Responsive Design */
 
-/* Tablet and small laptop */
 @media (max-width: 1024px) {
     .main-header {
         padding: 10px 20px;
@@ -174,7 +172,6 @@ footer {
     }
 }
 
-/* Phones and small screens */
 @media (max-width: 600px) {
     .main-header {
         flex-wrap: wrap;
@@ -230,7 +227,7 @@ footer {
         font-size: 12px;
     }
 }
-/* Top bar style */
+
 .top-bar {
     background-color: rgba(0, 0, 0, 0.05);
     color: #2D6A63;
@@ -495,4 +492,298 @@ footer {
   .btn-book:hover {
     background-color: #1d4e47;
   }
+  .registration-page {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/van.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  color: #ebf5f4;
+}
+
+.registration-page header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.registration-page footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.registration-page .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 2rem 1rem;
+}
+
+.registration-page form {
+  background: rgba(255, 255, 255, 0.95);
+  max-width: 420px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-page form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.registration-page .form-control {
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.registration-page .form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.registration-page .form-control i {
+  position: absolute;
+  top: 40px;
+  left: 12px;
+  color: #888;
+}
+
+.registration-page .form-control input {
+  width: 100%;
+  padding: 0.75rem 0.75rem 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.registration-page .form-control input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  outline: none;
+}
+
+.registration-page button[type="submit"] {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-page button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+.registration-form .form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.registration-form .form-buttons button {
+  flex: 1;
+}
+
+.registration-form .cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form .cancel-btn:hover {
+  background-color: #612002;
+}
+
+
+.registration-page .toggle-form {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.registration-page .toggle-form a {
+  color: #3498db;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.registration-page .toggle-form a:hover {
+  text-decoration: underline;
+}
+
+
+      .login-page {     margin: 0;
+      padding: 0;
+      background-image: url('images/van.png'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Poppins', sans-serif;
+      color: #ebf5f4;
+    }
+
+    header {
+      background-color: rgba(245, 236, 217, 0.85);
+      color: #2D6A63;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+      padding: 1rem;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 400px;
+      width: 100%;
+      margin: 1rem;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    form h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #2D6A63;
+    }
+
+    .form-control {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.2rem;
+    }
+
+    .form-control label {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .form-control input {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    .form-control input:focus {
+      outline: none;
+      border-color: #2D6A63;
+      box-shadow: 0 0 0 2px rgba(45, 106, 99, 0.2);
+    }
+
+   
+    .toggle-form {
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    .toggle-form a {
+      color: #2D6A63;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .toggle-form a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      form {
+        padding: 1.5rem;
+      }
+    }
   
+  .login-form .form-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.login-form .form-buttons button {
+  flex: 1;
+}
+
+.login-form .cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form .cancel-btn:hover {
+  background-color: #c0392b;
+}
+.login-form button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+

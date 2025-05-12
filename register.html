@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Réservation Lavage Auto – Inscription</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="registration-page">
+
+  <header>
+    🚗 Réservation Lavage Auto
+  </header>
+
+  <div class="form-container">
+    <form class="registration-form">
+      <h2>Créer un Compte</h2>
+
+      <div class="form-control">
+        <label for="fullName">Nom Complet</label>
+        <i class="fas fa-user"></i>
+        <input type="text" id="fullName" name="fullName" required />
+      </div>
+
+      <div class="form-control">
+        <label for="email">E-mail</label>
+        <i class="fas fa-envelope"></i>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-control">
+        <label for="phone">Numéro de téléphone</label>
+        <i class="fas fa-phone"></i>
+        <input type="tel" id="phone" name="phone" required />
+      </div>
+
+      <div class="form-control">
+        <label for="password">Mot de passe</label>
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <div class="form-control">
+        <label for="confirmPassword">Confirmer le mot de passe</label>
+        <i class="fas fa-lock"></i>
+        <input type="password" id="confirmPassword" name="confirmPassword" required />
+      </div>
+<div class="form-buttons">
+      <button type="submit">S'inscrire</button>
+<button type="button" class="cancel-btn" onclick="window.location.href='index.html'">Annuler</button> </div>
+      <p class="toggle-form">
+        Vous avez déjà un compte ?
+        <a href="login.html">Connectez-vous ici</a>.
+      </p>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Réservation Lavage Auto. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
