@@ -52,20 +52,20 @@ body {
     gap: 20px;
 }
 
-.btn-booking {
-    display: inline-block;
-    background-color: #f5e8d0;
-    color: #104e45;
-    padding: 12px 24px;
-    font-weight: bold;
-    border-radius: 30px;
+.btn-book {
+    background-color: #2D6A63;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-decoration: none;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
+    font-weight: 600;
+    transition: background-color 0.3s;
 }
-.btn-booking:hover {
-    background-color: #e0d4bc;
+
+.btn-book:hover {
+    background-color: #1E4B45;
 }
+
 
 .social-icons a {
     color: #2D6A63;
